@@ -4,16 +4,19 @@
     box-sizing: border-box;
 
 }
+
+
 header,
 section h2,
 section h3,
 form button,
 footer {
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Zen Dots', cursive;
     font-weight: normal;
 }
 header h1{
     font-family: 'Rubik Glitch', cursive;
+    font-weight: normal;
 }
 
 body,input,textarea {
@@ -22,8 +25,8 @@ font-family: 'Roboto', sans-serif;
 
 header {
     padding:  16px 0px;
-    background-color: rgb(10, 1, 1);
-    color: whitesmoke;
+    background-color: rgb(247, 124, 67);
+    color: rgb(24, 11, 0);
 }
 
 header nav li {
@@ -33,7 +36,7 @@ header nav li {
 }
 
 header nav li a {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -130,7 +133,7 @@ cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(189, 18, 18);
+    background-color: rgb(247, 92, 2);
 }
 
 input:focus , textarea:focus {
@@ -138,7 +141,7 @@ outline-color: rgb(41, 5, 5);
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(5, 2, 0);
     color: aliceblue;
     padding: 16px 0;
 }
